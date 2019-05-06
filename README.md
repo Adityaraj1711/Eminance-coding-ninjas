@@ -1,4 +1,4 @@
-##The repo consist of some of the very popular questions of SPOJ and HackerEarth. 
+## The repo consist of some of the very popular questions of SPOJ and HackerEarth. 
 
 The questions are well categorised and picked in the sequence of a popular course of coding ninjas (https://codingninjas.in/)
 
