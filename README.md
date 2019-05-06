@@ -13,3 +13,4 @@ The order to follow the modules are listed:
 4. Language tools
 5. Language tools and time complexity analysis
 6. Searching and sorting applications
+7.
