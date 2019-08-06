@@ -31,15 +31,33 @@ using namespace std;
 typedef long long ll;
     
 bool  isTrue(ll n,ll k){
-    ll sum1=0;
-    ll curr=n;
-    while (curr>0){
-        ll  x=min(k,curr);
-        sum1+=x;
-        curr-=x;
-        curr-=curr/10;
+//    ll sum1=0;
+//    ll curr=n;
+//    while (curr>0){
+//        ll  x=min(k,curr);
+//        sum1+=x;
+//        curr-=x;
+//        curr-=curr/10;
+//    }
+//   return 2*sum1>=n;
+ll sum=0;
+    ll current=n;
+    while(current>0 && k > 0)
+    {
+      ll y = min(current,k);
+      sum += y;
+      // sum=sum+min(current,k);
+      current=current-y;
+      current=current-current/10;
     }
-   return 2*sum1>=n;
+ 
+  if(2*sum>=n)
+  {
+      return true;
+  }
+  else{
+    return false;
+  }
 }
 
 

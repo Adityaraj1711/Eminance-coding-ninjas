@@ -32,11 +32,11 @@ int main()
 		sm.key = (*it).first; sm.val = (*it).second;
 		v.push_back(sm);
 	}
-	for (itv = v.begin(); itv != v.end(); ++itv)
-	{
-	//	cout << (*itv).key << " : " << (*itv).val << endl;
-	}
-	
+//	for (itv = v.begin(); itv != v.end(); ++itv)
+//	{
+//	//	cout << (*itv).key << " : " << (*itv).val << endl;
+//	}
+//	
 	sort(v.begin(),v.end(),Sort_by);
 	
 //	cout << "sorted" << endl;

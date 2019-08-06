@@ -10,9 +10,8 @@ void PairSum(int *input, int n){
       for(int i = 0;i<n;i++){
         um[input[i]] += 1;
       }
-  
-  
-      map<int,int> :: iterator it;
+
+	  map<int,int> :: iterator it;
   	for(it = um.begin();it!=um.end();it++){
       if((*it).first>0)
       if((*it).second>0){
@@ -23,7 +22,4 @@ void PairSum(int *input, int n){
         }
       }
     }
-      
-  
-    
- 	}
+}
